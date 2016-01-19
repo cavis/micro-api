@@ -9,6 +9,7 @@ var winston = require('winston');
 var routes = require('./routes/routes');
 var app = express();
 
+
 global.logger = winston;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
